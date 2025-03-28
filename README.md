@@ -33,12 +33,13 @@ npm start
 
 ### OIC libraries
 
-no se puede:
-- usar destructuring
-- usar let, const
-- usar console
-- usar string interpolation
+Cannot use:
 
-se puede:
-- usar funciones flecha
-- usar map
+- Destructuring
+- let, const
+- console
+- string interpolation
+
+Can use:
+- Arrow functions
+- map
