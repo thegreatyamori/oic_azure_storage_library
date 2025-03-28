@@ -16,7 +16,7 @@ const request = {
     endpoint_url: `${baseURL}/${fileShare}/Interface/Upload?comp=list&restype=directory`,
     http_method: "GET",
   },
-  read_single_file: {
+  read_file: {
     account_name: accountName,
     account_key: accountKey,
     origin_directory: "",
